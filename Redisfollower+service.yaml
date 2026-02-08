@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-   name: Redis-follower-deploy
+   name: redis-follower
    labels:
      app: redis
      role: follower
